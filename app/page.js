@@ -27,7 +27,7 @@ export default function Home() {
       <div className="text-3xl grid gap-6">
         <p>Declan was born on August 3rd, 2023 at 8:47am US Eastern time.</p>
         <p>It took seven years of IVF for Declan's parents, Lani and Michael, to get him here. When he first showed up, he was one of two babies – twins – but unfortunately his sibling died suddenly in utero.</p>
-        <p>On December 27th, 2023, at some point between 9:40pm and 11:00pm US Eastern time, Declan's heart stopped, as well. Lani and Michael found him unresponsive, and despite the best efforts of the EMTs, they weren't able to resuscitate him.</p>
+        <p>On December 27th, 2023, at some point between 9:40pm and 11:00pm US Eastern time, Declan's heart stopped. Lani and Michael found him unresponsive, and despite the best efforts of the EMTs, they weren't able to resuscitate him.</p>
         <p>In his short time here, Declan touched so many lives – even those of people he didn't meet. So his family created this page in his memory. Below are some links to further information.</p>
       </div>
 

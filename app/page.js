@@ -9,8 +9,12 @@ const ExternalLink = ({ href, children }) => {
 }
 
 export default function Home() {
+  const updated = new Date().toLocaleString()
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-8 lg:p-24 gap-8">
+      <div className="text-sm italic -mt-8">Last updated: {updated}</div>
+
       <div className="font-bold text-6xl">Declan Wilder Colianna</div>
 
       <div className="z-1">

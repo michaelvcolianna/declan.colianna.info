@@ -52,7 +52,7 @@ export default function Home() {
       </ContentBlock>
 
       <InfoList>
-        <ExternalLink href="https://www.instagram.com/p/C1hI24CuCoU/?igsh=c29sMjUxMHY3ajI%3D">Lani's Instagram Post</ExternalLink>
+        {/* <ExternalLink href="https://www.instagram.com/p/C1hI24CuCoU/?igsh=c29sMjUxMHY3ajI%3D">Lani's Instagram Post</ExternalLink> */}
         <ExternalLink href="https://www.facebook.com/michaelcolianna/posts/pfbid0271Dx14KKCbyQnXFoT9dLjKpRSgVBmLWMCTJUEd1nrhXgbVHqEt341sVzbyjuCJwGl">Michael's Facebook Post</ExternalLink>
         <ExternalLink href="https://www.gofundme.com/f/in-loving-memory-of-declan-wilder-colianna">GoFundMe Page</ExternalLink>
         <ExternalLink href="https://www.ihg.com/holidayinnexpress/hotels/us/en/branford/bfact/hoteldetail">Holiday Inn Express (Branford)</ExternalLink>

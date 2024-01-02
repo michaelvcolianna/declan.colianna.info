@@ -16,7 +16,7 @@ const ContentBlock = ({ children }) => {
 
 const InfoList = ({ children }) => {
   return (
-    <ul className="flex flex-col lg:flex-row gap-8 text-3xl w-full">{children}</ul>
+    <ul className="flex flex-col lg:grid grid-cols-2 gap-8 text-3xl w-full">{children}</ul>
   )
 }
 
@@ -27,12 +27,12 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-8 lg:p-24 gap-8 text-xl">
       <div className="text-slate-700 w-full text-sm italic lg:-mt-8">Last updated: {updated} US Eastern time</div>
 
-      <div className="font-bold">
+      <div className="font-bold w-full">
         <span className="block">In loving memory:</span>
         <span className="text-6xl">Declan Wilder Colianna</span>
       </div>
 
-      <div className="z-1">
+      <div className="w-full">
         <Image
           src="/decky.jpg"
           alt=""
@@ -75,7 +75,7 @@ export default function Home() {
         <ExternalLink href="https://www.hearingloss.org/">Hearing Loss Association of America</ExternalLink>
       </InfoList>
 
-      <div className="pb-8 w-full">
+      <div className="pb-8 w-full lg:pt-8">
         <a href="mailto:declan@colianna.info" className="underline text-indigo-700 font-bold">Contact the family</a>
       </div>
     </main>

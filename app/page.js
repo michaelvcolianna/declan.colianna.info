@@ -1,9 +1,15 @@
 import Image from 'next/image'
 
+const Link = ({ href, children }) => {
+  return (
+    <a href={href} className="text-indigo-700 underline text-wrap">{children}</a>
+  )
+}
+
 const ExternalLink = ({ href, children }) => {
   return (
     <li>
-      <a href={href} className="text-indigo-700 flex flex-row flex-wrap gap-2 items-center underline text-wrap">{children}</a>
+      <Link href={href}>{children}</Link>
     </li>
   )
 }
@@ -25,7 +31,7 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-8 lg:p-24 gap-8 text-xl">
-      <div className="text-slate-700 w-full text-sm italic lg:-mt-8">Last updated: {updated} US Eastern time</div>
+      <div className="text-slate-700 w-full text-sm italic lg:-mt-8">Last updated: {updated} US Eastern time: Added information about Declan's service.</div>
 
       <div className="font-bold w-full">
         <span className="block">In loving memory:</span>
@@ -46,8 +52,13 @@ export default function Home() {
       <ContentBlock>
         <p>On December 27th, 2023, at some point between 9:40pm and 11:00pm US Eastern time, Declan's heart stopped. Lani and Michael found him unresponsive, and despite the best efforts of the EMTs, they weren't able to resuscitate him.</p>
         <p>Declan was born on August 3rd, 2023 at 8:47am US Eastern time.</p>
-        <p>It took seven years of IVF for Declan's parents, Lani and Michael, to get him here. When he first showed up, he was one of two babies – twins – but unfortunately his sibling died suddenly in utero.</p>
+        <p>It took seven years of IVF for Declan's parents, Lani and Michael, to get him here. When he first showed up, he was one of two babies – twins – but unfortunately his sibling died in utero.</p>
         <p>In his short time here, Declan touched so many lives – even those of people he didn't meet. So his family created this page in his memory.</p>
+        <p className="font-bold">Friends and family are invited to services on January 20th, 2024 at 11:00am, at <Link href="https://www.google.com/maps/dir//41.291014,-72.8053558/@41.290994,-72.8877291,12z?entry=ttu">W.S. Clancy Funeral Home</Link>, at 244 North Main Street, Branford, CT, 06405.</p>
+        <p className="italic">Reception information will be posted soon.</p>
+      </ContentBlock>
+
+      <ContentBlock>
         <p>Below are some links to further information about what happened, along with details for family and friends traveling for the service. (All open external websites.)</p>
       </ContentBlock>
 
@@ -69,8 +80,8 @@ export default function Home() {
       </ContentBlock>
 
       <InfoList>
-        <ExternalLink href="https://www.stjude.org/">St. Jude Children's Research Hospital</ExternalLink>
         <ExternalLink href="https://resolve.org/">Resolve (The National Infertility Association)</ExternalLink>
+        <ExternalLink href="https://www.stjude.org/">St. Jude Children's Research Hospital</ExternalLink>
         <ExternalLink href="https://www.sandyhookpromise.org/">Sandy Hook Promise</ExternalLink>
         <ExternalLink href="https://www.hearingloss.org/">Hearing Loss Association of America</ExternalLink>
       </InfoList>

@@ -94,8 +94,8 @@ export default function Home() {
         <InfoList>
           <ExternalLink href="https://www.facebook.com/michaelcolianna/posts/pfbid0271Dx14KKCbyQnXFoT9dLjKpRSgVBmLWMCTJUEd1nrhXgbVHqEt341sVzbyjuCJwGl">Michael's Facebook Post</ExternalLink>
           <ExternalLink href="https://www.gofundme.com/f/in-loving-memory-of-declan-wilder-colianna">GoFundMe Page</ExternalLink>
-          {/* <ExternalLink href="#">Obituary</ExternalLink>
-          <ExternalLink href="#">Live Stream</ExternalLink> */}
+          <ExternalLink href="https://www.wsclancy.com/obituaries/Declan-Wilder-Colianna?obId=30269994">Obituary</ExternalLink>
+          {/* <ExternalLink href="#">Live Stream</ExternalLink> */}
         </InfoList>
       </DisclosureBlock>
 

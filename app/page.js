@@ -59,7 +59,7 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-8 lg:p-24 gap-8 text-xl">
-      <div className="text-slate-700 w-full text-sm italic lg:-mt-8">Last updated: {updated} US Eastern time: Added Declan's obituary to the about section.</div>
+      <div className="text-slate-700 w-full text-sm italic lg:-mt-8">Last updated: {updated} US Eastern time: Added reception information.</div>
 
       <div className="font-bold w-full">
         <span className="block">In loving memory:</span>
@@ -80,7 +80,7 @@ export default function Home() {
       <ContentBlock>
         <p>On December 27th, 2023, at some point between 9:40pm and 11:00pm US Eastern time, Declan's heart stopped. Lani and Michael found him unresponsive, and despite the best efforts of the EMTs, they weren't able to resuscitate him.</p>
         <p className="font-bold">Friends and family are invited to services on January 20th, 2024 at 11:00am, at <Link href="https://www.google.com/maps/dir//41.291014,-72.8053558/@41.290994,-72.8877291,12z?entry=ttu">W.S. Clancy Funeral Home</Link>, at 244 North Main Street, Branford, CT, 06405.</p>
-        <p className="italic">Reception information will be posted soon.</p>
+        <p className="italic">Reception will start 12:30pm at <Link href="https://elisrg.com/branford/">Eli's Branford</Link>, 624 North Main Street, Branford, CT, 06405.</p>
       </ContentBlock>
 
       <DisclosureBlock anchor="about-declan" summary="About Declan">

@@ -59,7 +59,7 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-8 lg:p-24 gap-8 text-xl">
-      <div className="text-slate-700 w-full text-sm italic lg:-mt-8">Last updated: {updated} US Eastern time: Organized the information better.</div>
+      <div className="text-slate-700 w-full text-sm italic lg:-mt-8">Last updated: {updated} US Eastern time: Added Declan's obituary to the about section.</div>
 
       <div className="font-bold w-full">
         <span className="block">In loving memory:</span>

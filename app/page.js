@@ -59,7 +59,7 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-8 lg:p-24 gap-8 text-xl">
-      <div className="text-slate-700 w-full text-sm italic lg:-mt-8">Last updated: {updated} US Eastern time: Removed GFM link since we met the goal.</div>
+      <div className="text-slate-700 w-full text-sm italic lg:-mt-8">Last updated {updated} US Eastern time: Added thanks to everyone sending messages.</div>
 
       <div className="font-bold w-full">
         <span className="block">In loving memory:</span>
@@ -124,6 +124,10 @@ export default function Home() {
           <ExternalLink href="https://www.hearingloss.org/">Hearing Loss Association of America</ExternalLink>
         </InfoList>
       </DisclosureBlock>
+
+      <ContentBlock>
+        <p>The family would like to extend their sincerest thanks for all the messages of sympathy they've received. There have been so many people who have offered condolences, their own stories, and words of support and they are extremely grateful for it all. It would be a monumental task to respond to them all, but please know that they read each and every one.</p>
+      </ContentBlock>
 
       <div className="pb-8 w-full lg:pt-8">
         <a href="mailto:declan@colianna.info" className="underline text-indigo-700 font-bold">Contact the family</a>

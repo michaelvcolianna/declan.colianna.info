@@ -86,7 +86,7 @@ export default function Home() {
       <ContentBlock>
         <p>On December 27th, 2023, at some point between 9:40pm and 11:00pm US Eastern time, Declan's heart stopped. Lani and Michael found him unresponsive, and despite the best efforts of the EMTs, they weren't able to resuscitate him.</p>
         <p className="font-bold">Friends and family are invited to services on January 20th, 2024 at 11:00am, at <Link href="https://www.google.com/maps/dir//41.291014,-72.8053558/@41.290994,-72.8877291,12z?entry=ttu">W.S. Clancy Funeral Home</Link>, at 244 North Main Street, Branford, CT, 06405.</p>
-        <p>The family has created a <Link href="https://us06web.zoom.us/j/74984959691">Zoom stream for the service</Link>. <em>This stream is password-protected for close friends and family.</em></p>
+        <p>The family has created a <Link href="https://us06web.zoom.us/j/74984959691">Zoom stream for the service</Link>. <em>This stream is password-protected for close friends and family. It will be in "Focus Mode" so participants can only view and chat.</em> At a later date, the service will be available via a private YouTube link.</p>
         <p>Reception will start 12:30pm at <Link href="https://elisrg.com/branford/">Eli's Branford</Link>, 624 North Main Street, Branford, CT, 06405.</p>
       </ContentBlock>
 

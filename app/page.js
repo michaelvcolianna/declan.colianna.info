@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 const UpdateReason = () => {
   return (
-    <>Updated Zoom text.</>
+    <>Removed unnecessary information.</>
   )
 }
 
@@ -84,44 +84,23 @@ export default function Home() {
       </div>
 
       <ContentBlock>
+        <p>Declan was born on August 3rd, 2023 at 8:47am US Eastern time.</p>
+        <p>It took seven years of IVF for Declan's parents, Lani and Michael, to get him here. When he first showed up, he was one of two babies – twins – but unfortunately his sibling died in utero.</p>
         <p>On December 27th, 2023, at some point between 9:40pm and 11:00pm US Eastern time, Declan's heart stopped. Lani and Michael found him unresponsive, and despite the best efforts of the EMTs, they weren't able to resuscitate him.</p>
-        <p className="font-bold">Friends and family are invited to services on January 20th, 2024 at 11:00am, at <Link href="https://www.google.com/maps/dir//41.291014,-72.8053558/@41.290994,-72.8877291,12z?entry=ttu">W.S. Clancy Funeral Home</Link>, at 244 North Main Street, Branford, CT, 06405.</p>
-        <p>The family has created a <Link href="https://us06web.zoom.us/j/74984959691">Zoom stream for the service</Link>. <em>This stream is password-protected for close friends and family. It will be in "Focus Mode" so participants can only view and chat.</em> At a later date, the service will be available via a private YouTube link.</p>
-        <p>Reception will start 12:30pm at <Link href="https://elisrg.com/branford/">Eli's Branford</Link>, 624 North Main Street, Branford, CT, 06405.</p>
-      </ContentBlock>
-
-      <DisclosureBlock anchor="about-declan" summary="About Declan">
-        <ContentBlock>
-          <p>Declan was born on August 3rd, 2023 at 8:47am US Eastern time.</p>
-          <p>It took seven years of IVF for Declan's parents, Lani and Michael, to get him here. When he first showed up, he was one of two babies – twins – but unfortunately his sibling died in utero.</p>
-          <p>In his short time here, Declan touched so many lives – even those of people he didn't meet. So his family created this page in his memory.</p>
-          <p>Below are some links with further information about what happened. <ExternalText /></p>
-        </ContentBlock>
-
+        <p>In his short time here, Declan touched so many lives – even those of people he didn't meet. So his family created this page in his memory.</p>
+        <p>Below are some links with further information about what happened. <ExternalText /></p>
+        
         <InfoList>
           <ExternalLink href="https://www.facebook.com/michaelcolianna/posts/pfbid0271Dx14KKCbyQnXFoT9dLjKpRSgVBmLWMCTJUEd1nrhXgbVHqEt341sVzbyjuCJwGl">Michael's Facebook Post</ExternalLink>
           <ExternalLink href="https://www.wsclancy.com/obituaries/Declan-Wilder-Colianna?obId=30269994">Obituary</ExternalLink>
           {/* <ExternalLink href="#">Recorded Stream</ExternalLink> */}
         </InfoList>
-      </DisclosureBlock>
-
-      <DisclosureBlock anchor="travel-accommodations" summary="Travel & Accommodations">
-        <ContentBlock>
-          <p>Below are some links for family and friends traveling for the service. <ExternalText /></p>
-        </ContentBlock>
-
-        <InfoList>
-          <ExternalLink href="https://www.ihg.com/holidayinnexpress/hotels/us/en/branford/bfact/hoteldetail">Holiday Inn Express (Branford)</ExternalLink>
-          <ExternalLink href="https://www.wyndhamhotels.com/baymont/branford-connecticut/baymont-inn-and-suites-branford-new-haven/overviewhoteldetail">Baymont by Wyndham (Branford)</ExternalLink>
-          <ExternalLink href="https://www.omnihotels.com/hotels/new-haven-yale">The Omni Hotel (New Haven)</ExternalLink>
-          <ExternalLink href="https://www.newhavenhotel.com/">New Haven Hotel (New Haven)</ExternalLink>
-          <ExternalLink href="https://www.theblakenewhaven.com/">The Blake Hotel (New Haven)</ExternalLink>
-        </InfoList>
-      </DisclosureBlock>
+      </ContentBlock>
 
       <DisclosureBlock anchor="sympathy-donations" summary="Sympathy & Donations">
         <ContentBlock>
           <p>Declan's family is sensitive to flowers, so in lieu, a simple message of sympathy is fine. If you'd like to make a donation in Declan's name, his family has provided a list of organizations that mean a lot to them. <ExternalText /></p>
+          <p>The family would like to extend their sincerest thanks for all the messages of sympathy they've received. There have been so many people who have offered condolences, their own stories, and words of support and they are extremely grateful for it all. It would be a monumental task to respond to them all, but please know that they read each and every one.</p>
         </ContentBlock>
 
         <InfoList>
@@ -131,10 +110,6 @@ export default function Home() {
           <ExternalLink href="https://www.hearingloss.org/">Hearing Loss Association of America</ExternalLink>
         </InfoList>
       </DisclosureBlock>
-
-      <ContentBlock>
-        <p>The family would like to extend their sincerest thanks for all the messages of sympathy they've received. There have been so many people who have offered condolences, their own stories, and words of support and they are extremely grateful for it all. It would be a monumental task to respond to them all, but please know that they read each and every one.</p>
-      </ContentBlock>
 
       <div className="pb-8 w-full lg:pt-8">
         <a href="mailto:declan@colianna.info" className="underline text-indigo-700 font-bold">Contact the family</a>

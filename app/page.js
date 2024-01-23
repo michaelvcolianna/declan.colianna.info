@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 const UpdateReason = () => {
   return (
-    <>Removed unnecessary information.</>
+    <>Added link to the YouTube video.</>
   )
 }
 
@@ -88,19 +88,19 @@ export default function Home() {
         <p>It took seven years of IVF for Declan's parents, Lani and Michael, to get him here. When he first showed up, he was one of two babies – twins – but unfortunately his sibling died in utero.</p>
         <p>On December 27th, 2023, at some point between 9:40pm and 11:00pm US Eastern time, Declan's heart stopped. Lani and Michael found him unresponsive, and despite the best efforts of the EMTs, they weren't able to resuscitate him.</p>
         <p>In his short time here, Declan touched so many lives – even those of people he didn't meet. So his family created this page in his memory.</p>
-        <p>Below are some links with further information about what happened. <ExternalText /></p>
+        <p>Below are some links with further information. <ExternalText /></p>
         
         <InfoList>
+          <ExternalLink href="https://www.youtube.com/watch?v=i1c1LIyJcKU">Recording of the Service</ExternalLink>
           <ExternalLink href="https://www.facebook.com/michaelcolianna/posts/pfbid0271Dx14KKCbyQnXFoT9dLjKpRSgVBmLWMCTJUEd1nrhXgbVHqEt341sVzbyjuCJwGl">Michael's Facebook Post</ExternalLink>
           <ExternalLink href="https://www.wsclancy.com/obituaries/Declan-Wilder-Colianna?obId=30269994">Obituary</ExternalLink>
-          {/* <ExternalLink href="#">Recorded Stream</ExternalLink> */}
         </InfoList>
       </ContentBlock>
 
       <DisclosureBlock anchor="sympathy-donations" summary="Sympathy & Donations">
         <ContentBlock>
-          <p>Declan's family is sensitive to flowers, so in lieu, a simple message of sympathy is fine. If you'd like to make a donation in Declan's name, his family has provided a list of organizations that mean a lot to them. <ExternalText /></p>
-          <p>The family would like to extend their sincerest thanks for all the messages of sympathy they've received. There have been so many people who have offered condolences, their own stories, and words of support and they are extremely grateful for it all. It would be a monumental task to respond to them all, but please know that they read each and every one.</p>
+          <p>Declan's family would like to extend their sincerest thanks for all the messages of sympathy they've received. There have been so many people who offered condolences, stories, and words of support and they are extremely grateful for it all. It would be a monumental task to respond to each message, but please know that they read each and every one.</p>
+          <p>In lieu of flowers, a simple message of sympathy is fine. If you'd like to make a donation in Declan's name, his family has provided a list of organizations that mean a lot to them. <ExternalText /></p>
         </ContentBlock>
 
         <InfoList>

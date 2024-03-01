@@ -65,7 +65,7 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-8 lg:p-24 gap-8 text-xl">
-      <div className="text-slate-700 w-full text-sm italic lg:-mt-8">Last updated {updated} US Eastern time: <UpdateReason /></div>
+      <div className="text-slate-700 w-full text-sm italic lg:-mt-8">Last updated 1/23/2024, 4:42:56 PM US Eastern time: Removed unnecessary information.</div>
 
       <div className="font-bold w-full">
         <span className="block">In loving memory:</span>
@@ -91,7 +91,6 @@ export default function Home() {
         <p>Below are some links with further information. <ExternalText /></p>
         
         <InfoList>
-          <ExternalLink href="https://www.youtube.com/watch?v=i1c1LIyJcKU">Recording of the Service</ExternalLink>
           <ExternalLink href="https://www.facebook.com/michaelcolianna/posts/pfbid0271Dx14KKCbyQnXFoT9dLjKpRSgVBmLWMCTJUEd1nrhXgbVHqEt341sVzbyjuCJwGl">Michael's Facebook Post</ExternalLink>
           <ExternalLink href="https://www.wsclancy.com/obituaries/Declan-Wilder-Colianna?obId=30269994">Obituary</ExternalLink>
         </InfoList>

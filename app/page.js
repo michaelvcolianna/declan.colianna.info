@@ -65,8 +65,6 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-8 lg:p-24 gap-8 text-xl">
-      <div className="text-slate-700 w-full text-sm italic lg:-mt-8">Last updated 1/23/2024, 4:42:56 PM US Eastern time: Removed unnecessary information.</div>
-
       <div className="font-bold w-full">
         <span className="block">In loving memory:</span>
         <span className="text-6xl">Declan Wilder Colianna</span>
@@ -89,7 +87,7 @@ export default function Home() {
         <p>On December 27th, 2023, at some point between 9:40pm and 11:00pm US Eastern time, Declan's heart stopped. Lani and Michael found him unresponsive, and despite the best efforts of the EMTs, they weren't able to resuscitate him.</p>
         <p>In his short time here, Declan touched so many lives – even those of people he didn't meet. So his family created this page in his memory.</p>
         <p>Below are some links with further information. <ExternalText /></p>
-        
+
         <InfoList>
           <ExternalLink href="https://www.facebook.com/michaelcolianna/posts/pfbid0271Dx14KKCbyQnXFoT9dLjKpRSgVBmLWMCTJUEd1nrhXgbVHqEt341sVzbyjuCJwGl">Michael's Facebook Post</ExternalLink>
           <ExternalLink href="https://www.wsclancy.com/obituaries/Declan-Wilder-Colianna?obId=30269994">Obituary</ExternalLink>

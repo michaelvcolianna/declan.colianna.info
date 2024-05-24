@@ -105,6 +105,7 @@ export default function Home() {
           <ExternalLink href="https://www.stjude.org/">St. Jude Children's Research Hospital</ExternalLink>
           <ExternalLink href="https://www.sandyhookpromise.org/">Sandy Hook Promise</ExternalLink>
           <ExternalLink href="https://www.hearingloss.org/">Hearing Loss Association of America</ExternalLink>
+          <ExternalLink href="https://www.magichouse.org/">The Magic House (St. Louis Children's Museum)</ExternalLink>
         </InfoList>
       </DisclosureBlock>
 

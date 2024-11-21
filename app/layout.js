@@ -3,6 +3,7 @@ import './globals.css'
 export const metadata = {
   title: 'In Loving Memory: Declan W. Colianna',
   description: 'Information about Declan for friends and family.',
+  robots: 'noai, noimageai'
 }
 
 export default function RootLayout({ children }) {

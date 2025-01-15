@@ -48,21 +48,6 @@
       In his short time here, Declan touched so many lives – even those of
       people he didn't meet. So his family created this page in his memory.
     </p>
-    <p>
-      Below are some links with further information. (All open external
-      websites.)
-    </p>
-
-    <InfoList>
-      <ExternalLink
-        href="https://www.facebook.com/michaelcolianna/posts/pfbid0271Dx14KKCbyQnXFoT9dLjKpRSgVBmLWMCTJUEd1nrhXgbVHqEt341sVzbyjuCJwGl"
-        >Michael's Facebook Post</ExternalLink
-      >
-      <ExternalLink
-        href="https://www.wsclancy.com/obituaries/Declan-Wilder-Colianna?obId=30269994"
-        >Obituary</ExternalLink
-      >
-    </InfoList>
   </ContentBlock>
 
   <DisclosureBlock anchor="sympathy-donations" summary="Sympathy & Donations">
